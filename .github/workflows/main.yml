@@ -48,7 +48,7 @@ jobs:
       - name: Checkout Deployment Repository
         uses: actions/checkout@v4
         with:
-          repository: tonyjung-1219/deployment #본인에 맞게 수정
+          repository: tonyjung-1219/dep-svel #본인에 맞게 수정
           ref: main  # branch
           token: ${{ secrets.GH_TOKEN }}
 
